@@ -1,0 +1,36 @@
+
+path {
+  stroke-width: 2;
+  stroke: black;
+}
+
+.hover {
+  stroke-width: 20;
+}
+
+#brain {
+  position: absolute;
+  width: 500;
+  height: 500;
+  border: 2px solid #D5D5D5;
+}
+#icicle {
+  position: relative
+  border: 2px solid #D5D5D5;
+}
+
+.node {
+  fill: #ddd;
+  stroke: #fff;
+}
+
+.label {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.link {
+  stroke: red;
+  stroke-opacity: .5;
+  fill: none;
+}
